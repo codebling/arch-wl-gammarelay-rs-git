@@ -4,6 +4,7 @@ pkgver=v1.0.0.r0.ge389544
 pkgrel=1
 pkgdesc="A simple program that provides DBus interface to control display temperature and brightness under wayland without flickering"
 makedepends=('cargo')
+conflicts=(${_pkgname})
 arch=('x86_64')
 url="https://github.com/MaxVerevkin/wl-gammarelay-rs"
 license=('GPL-3.0-only')
